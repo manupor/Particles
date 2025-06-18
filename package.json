@@ -19,6 +19,9 @@
   "bugs": {
     "url": "https://github.com/isladjan/particles-playground/issues"
   },
+  "engines": {
+    "node": "20.x"
+  },
   "main": "effect.js",
   "scripts": {
     "dev": "vite --host",

@@ -19,6 +19,9 @@
   "bugs": {
     "url": "https://github.com/isladjan/particles-playground/issues"
   },
+  "engines": {
+    "node": "20.x"
+  },
   "main": "effect.js",
   "scripts": {
     "dev": "vite --host",
@@ -26,6 +29,7 @@
     "preview": "vite preview"
   },
   "devDependencies": {
+    "@rollup/rollup-linux-x64-gnu": "^4.24.3",
     "sass": "^1.80.5",
     "vite": "^5.4.0"
   },

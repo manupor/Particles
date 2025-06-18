@@ -54,12 +54,14 @@ li {
 /* Root Styles */
 :root {
   --font1: 'departure-mono', system-ui, 'Courier New', 'Courier', monospace;
+  --color-bg: #242424;
+  --color-text: #e0e0e0;
+  --color-accent: #f4852a;
   font-family: var(--font1);
   line-height: 1.5;
   font-weight: 400;
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  color: var(--color-text);
+  background-color: var(--color-bg);
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
@@ -69,7 +71,7 @@ li {
 body {
   margin: 0;
   min-height: 100vh;
-  background-color: #242424;
+  background-color: var(--color-bg);
   display: grid;
   grid-template-columns: repeat(1fr, 2);
   grid-template-areas: "effect, links";
@@ -128,6 +130,17 @@ body {
       background-color: #000000da;
       padding: 0.3rem 0.5rem;
       height: fit-content;
+    }
+
+    .main-nav {
+      display: flex;
+      gap: 1rem;
+      align-items: center;
+      a {
+        color: var(--color-text);
+        font-size: .9rem;
+        text-transform: uppercase;
+      }
     }
   }
 
@@ -369,6 +382,23 @@ body {
     bottom:50px;
   }
 
+}
+
+.about-section {
+  max-width: 900px;
+  margin: 2rem auto;
+  padding: 0 2rem;
+  color: var(--color-text);
+
+  h2 {
+    text-transform: uppercase;
+    margin-bottom: 0.5rem;
+    font-size: 1.5rem;
+  }
+
+  a {
+    color: var(--color-accent);
+  }
 }
 
 

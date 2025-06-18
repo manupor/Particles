@@ -1,23 +1,26 @@
 {
-  "name": "@isladjan/particles-playground",
+  "name": "@manuportuguez/particles-playground",
   "version": "2.0.1",
   "description": "A WebGL project driven by particles, built with Three.js and GSAP. It creates dynamic, animated visuals with smooth effects and interactive motion.",
   "author": {
-    "name": "isladjan - Sladjan Ilic",
-    "url": "https://isladjan.com/"
+    "name": "Manu Portuguez",
+    "url": "https://manuportuguez.com/"
   },
   "keywords": [
     "quotes, particles, webgl, three.js, gsap"
   ],
   "license": "MIT",
-  "homepage": "https://github.com/isladjan/work/3/quotes",
+  "homepage": "https://github.com/manuportuguez/work/3/quotes",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/isladjan/particles-playground.git",
-    "email": "github@isladjan.com"
+    "url": "git+https://github.com/manuportuguez/particles-playground.git",
+    "email": "github@manuportuguez.com"
   },
   "bugs": {
-    "url": "https://github.com/isladjan/particles-playground/issues"
+    "url": "https://github.com/manuportuguez/particles-playground/issues"
+  },
+  "engines": {
+    "node": "20.x"
   },
   "main": "effect.js",
   "scripts": {

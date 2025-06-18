@@ -32,7 +32,7 @@ const texturesOptions = [
     index: 2,
     url: "/img/3.jpg",
     quote:
-      "Hey, I'm <span style='color:#6cc4bb'>iSladjan</span> a freelancer developer who enjoys creating websites and animations.",
+      "Hey, I'm <span style='color:#6cc4bb'>Manu Portuguez</span> a freelancer developer who enjoys creating websites and animations.",
     threshold: 10,
     random: 1.0,
     depth: 2.0,

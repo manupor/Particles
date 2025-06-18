@@ -1,5 +1,5 @@
-// Three.js particles playground - https://github.com/isladjan/particlesPlayground
-// Author : Sladjan Ilic, https://www.isladjan.com/.
+// Three.js particles playground - https://github.com/manuportuguez/particlesPlayground
+// Author : Sladjan Ilic, https://www.manuportuguez.com/.
 
 "use strict";
 import gsap from "gsap";
@@ -30,7 +30,7 @@ export default class Effect {
   //MARK: - constructor
   constructor(texturesOptions) {
     console.log(
-      `\n%cMade by isladjan ➡  https://twitter.com/isladjan`,
+      `\n%cMade by Manu Portuguez ➡  https://twitter.com/manuportuguez`,
       'color:#40a6ce; background:#4087ce33; font-size:1.0rem; display:block; padding:0.4rem 0.6rem; margin-bottom: 13px; font-family: "Courier New", Courier, monospace; border: 2px solid #40a6ce; border-radius: 8px; text-shadow: 1px 1px 1px #000000bf;'
     );
 
@@ -352,7 +352,7 @@ export default class Effect {
   }
   
   void main() {
-    // Author : Sladjan Ilic, https://www.isladjan.com/.
+    // Author : Sladjan Ilic, https://www.manuportuguez.com/.
       vUv = uv;
       
       vec2 puv = offset.xy / uTextureSize;
@@ -396,7 +396,7 @@ export default class Effect {
       varying vec2 vUv;
 
       void main() {
-        // Author : Sladjan Ilic, https://www.isladjan.com/.
+        // Author : Sladjan Ilic, https://www.manuportuguez.com/.
           vec4 color = vec4(0.0);
           vec2 uv = vUv;
           vec2 puv = vPUv;
